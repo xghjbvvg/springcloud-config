@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: service-feign
+  zipkin:
+    base-url: http://localhsot:9411
 eureka:
   client:
     serviceUrl:
